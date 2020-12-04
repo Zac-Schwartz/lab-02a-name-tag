@@ -14,8 +14,9 @@ h2 {font-size: 35px;
     margin: 0px;
 }
 
-.name {font-size: 35px;
+.my-special-name {font-size: 35px;
     font-weight: 100;
+    font-style: italic;
     color: black;
     background-color: white;
     padding-top: 35px;
@@ -24,7 +25,7 @@ h2 {font-size: 35px;
     padding-left: 0px;
     }
 
-div {border-top: 2px solid black;
+.main-tag {border-top: 2px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -34,8 +35,28 @@ div {border-top: 2px solid black;
     text-align: center;
     width: 600px;
     height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+.my-special-button {
+    text-align:center;
+    justify-content: center;
+}
+
+.green-button {
+    text-align:center;
+    justify-content: center;
+}
+
+.red-button {
+    text-align:center;
+    justify-content: center;
+}
+
+.blue-button {
+    text-align:center;
+    justify-content: center;
 }
